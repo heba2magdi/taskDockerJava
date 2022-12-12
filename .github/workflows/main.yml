@@ -1,12 +1,12 @@
 on:
   push:
     branches:
-      -master
+      - master
        
        
 jobs:
    build:
-     runs-on: ubuntu-latest
+     runs-on: Ubuntu-latest
      steps:
        - name: "heba"
          run: echo "hello"
